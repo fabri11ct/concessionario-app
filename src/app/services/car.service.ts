@@ -24,7 +24,7 @@ export class CarService {
       modello: 'Phaeton',
       anno: 2006,
       prezzo: 11000,
-      immagineUrl: 'assets\images\autowp.ru_volkswagen_phaeton_w12_uk-spec_10.jpg',
+      immagineUrl: 'assets\images\VWphaeton.jpg',
       descrizione: 'La berlina piu lussuosa mai prodotta da parte del gruppo VW, basata sul telaio della Audi A8 ma con il motore della Bentley continental GT'
     },
     {
@@ -33,7 +33,7 @@ export class CarService {
       modello: 'Pt-Cruiser',
       anno: 2005,
       prezzo: 2000,
-      immagineUrl: 'assets\images\chrysler-pt-cruiser-front.jpeg',
+      immagineUrl: 'assets\images\pt-cruiser.jpeg',
       descrizione: 'questa macchina e una delle cose piu brutte che siano mai state partorite dalla mente di un uomo dopo questo sito'
     },
     {
@@ -42,7 +42,7 @@ export class CarService {
       modello: 'Stelvio',
       anno: 2020,
       prezzo: 22500,
-      immagineUrl: 'assets\images\photo_5850379167147868558_y.jpg',
+      immagineUrl: 'assets\images\stelvio.jpg',
       descrizione: 'Bella, comoda, spaziosa, finche non te la rubano o non si fonde il motore perche hai fatto il tagliano 100km dopo'
     },
     {
@@ -51,7 +51,7 @@ export class CarService {
       modello: 'Range Rover Autobiography',
       anno: 2013,
       prezzo: 32500,
-      immagineUrl: 'assets\images\copertina-range-rover-e-range-rover-sport-2014.jpg',
+      immagineUrl: 'assets\images\range.jpg',
       descrizione: 'Bella, bellissima, fantastica, si nota che amo questa macchina inutilmente grande e ridicolmente poco affidabile? 10/10'
     }
 
