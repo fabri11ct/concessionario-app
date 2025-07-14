@@ -1,0 +1,29 @@
+.main-footer {
+  background-color: #343a40; // Un colore scuro per il footer
+  color: #f8f9fa; // Testo chiaro
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-top: auto; // Spinge il footer in fondo alla pagina
+
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .footer-links {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem; // Spazio tra i link
+
+    a {
+      color: #adb5bd; // Colore più tenue per i link
+      text-decoration: none;
+      transition: color 0.3s ease;
+
+      &:hover {
+        color: #ffffff; // Link più luminoso al passaggio del mouse
+      }
+    }
+  }
+}
