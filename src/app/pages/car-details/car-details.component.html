@@ -1,1 +1,17 @@
-<p>car-details works!</p>
+<div *ngIf="car" class="details-container">
+  <div class="image-gallery">
+    <img [src]="car.immagineUrl" [alt]="car.marca + ' ' + car.modello">
+  </div>
+  <div class="details-info">
+    <h1>{{ car.marca }} {{ car.modello }}</h1>
+    <p class="year">Anno: {{ car.anno }}</p>
+    <p class="price">{{ car.prezzo | currency:'EUR':'symbol':'1.0-0' }}</p>
+    <p class="description">{{ car.descrizione }}</p>
+    <button class="buy-button">Richiedi Informazioni</button>
+  </div>
+</div>
+
+<div *ngIf="!car" class="not-found">
+  <h2>Auto non trovata!</h2>
+  <a routerLink="/auto">Torna alla lista auto</a>
+</div>

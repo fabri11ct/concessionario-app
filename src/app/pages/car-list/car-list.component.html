@@ -1,1 +1,14 @@
-<p>car-list works!</p>
+<div class="car-list-container">
+  <h1>Le Nostre Auto in Vetrina</h1>
+  <div class="car-grid">
+    <div *ngFor="let car of cars" class="car-card">
+      <a [routerLink]="['/auto', car.id]">
+        <img [src]="car.immagineUrl" [alt]="car.marca + ' ' + car.modello">
+        <div class="car-info">
+          <h2>{{ car.marca }} {{ car.modello }}</h2>
+          <p class="price">{{ car.prezzo | currency:'EUR':'symbol':'1.0-0' }}</p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
